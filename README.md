@@ -1,36 +1,68 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PitchX
 
-## Getting Started
+PitchX is an AI-powered mock interview platform designed to help candidates practice interviews in a realistic, structured environment and receive actionable feedback on their performance.
 
-First, run the development server:
+The platform simulates real interview flows — from question generation to response evaluation — with a focus on clarity, confidence, and communication rather than rote answers.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 What PitchX Does
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Generate mock interviews tailored to roles and experience levels
+- Guide users through structured interview sessions
+- Capture and analyze responses (text-first, voice-assisted)
+- Provide detailed AI-powered feedback on:
+  - clarity
+  - structure
+  - confidence
+  - communication quality
+- Track performance and improvement over time
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+PitchX is built as a **practice and evaluation tool**, not a demo — focusing on real interview dynamics and useful feedback.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Design Philosophy
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **UI first, intelligence later** — build clear user flows before layering AI
+- **Cost-aware architecture** — avoid unnecessary paid dependencies
+- **Signal-based evaluation** — combine transcript analysis with measurable speech signals
+- **Product over polish** — usability and clarity over visual excess
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Next.js** (App Router)
+- **Tailwind CSS**
+- **Firebase** (Authentication & Database)
+- **Generative AI (LLMs)** for interview generation and feedback
+- **Browser Speech APIs** (speech-to-text & audio signals)
+- **Vercel** for deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📌 Current Status
+
+🚧 In active development
+
+Planned milestones:
+- Core UI & routing
+- Authentication flow
+- Interview generation & session flow
+- AI-driven evaluation & feedback
+- Voice-assisted confidence analysis
+- Deployment & documentation
+
+---
+
+## 🎯 Why PitchX
+
+Interviews are high-pressure environments where feedback is often vague or unavailable.  
+PitchX aims to make interview preparation **deliberate, measurable, and repeatable** by combining structured practice with AI-assisted evaluation.
+
+---
+
+## 📄 Notes
+
+This project is part of a broader effort to build real-world, production-minded applications that demonstrate system design, AI integration, and thoughtful UX — beyond basic CRUD apps.
