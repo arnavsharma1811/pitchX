@@ -16,7 +16,7 @@ interface FormFieldProps<T extends FieldValues> {
   type?: "text" | "email" | "password";
 }
 
-const FormField = <T extends FieldValues>({
+const Formfield = <T extends FieldValues>({
   control,
   name,
   label,
@@ -45,4 +45,4 @@ const FormField = <T extends FieldValues>({
   );
 };
 
-export default FormField;
+export default Formfield;
