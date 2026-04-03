@@ -4,7 +4,7 @@ import Image from "next/image";
 import { getCurrentUser } from "@/lib/actions/auth.action";
 import { getFeedbackByInterviewId, getInterviewById } from "@/lib/actions/general.action";
 
-const FeedbackPage = async ({ params }: RouteParams) => {
+const FeedbackPage = async ({ params }: { params: Promise<{ id: string }> }) => {
   const { id } = await params;
   const user = await getCurrentUser();
 
