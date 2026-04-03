@@ -4,7 +4,7 @@ import dayjs from "dayjs";
 import Image from "next/image";
 import { Button } from "./ui/button";
 import DisplayTechIcons from "./DisplayTechIcons";
-
+import type { InterviewCardProps, Feedback } from "@/types";
 
 
 const InterviewCard = ({interviewId, userId, role , type, techstack, createdAt}: InterviewCardProps) => {
