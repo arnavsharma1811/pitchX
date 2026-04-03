@@ -1,4 +1,5 @@
 import { z } from "zod";
+import type { Interview } from "@/types";
 
 export const feedbackSchema = z.object({
   totalScore: z.number(),
