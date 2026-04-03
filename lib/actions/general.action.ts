@@ -3,6 +3,14 @@
 import { generateText } from "ai";
 import { google } from "@ai-sdk/google";
 import { db } from "@/firebase/admin";
+import type {
+  CreateFeedbackParams,
+  CreateInterviewParams,
+  GetFeedbackByInterviewIdParams,
+  GetLatestInterviewsParams,
+  Interview,
+  Feedback,
+} from "@/types";
 
 export async function createFeedback(params: CreateFeedbackParams) {
   const { interviewId, userId, transcript, feedbackId } = params;

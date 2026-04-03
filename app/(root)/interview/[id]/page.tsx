@@ -11,7 +11,7 @@ import {
 import { getCurrentUser } from "@/lib/actions/auth.action";
 import DisplayTechIcons from "@/components/DisplayTechIcons";
 
-const InterviewDetails = async ({ params }: RouteParams) => {
+const InterviewDetails = async ({ params }: { params: Promise<{ id: string }> }) => {
   const { id } = await params;
 
   const user = await getCurrentUser();

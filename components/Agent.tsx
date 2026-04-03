@@ -5,6 +5,7 @@ import { useState, useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
 import { cn } from "@/lib/utils";
 import { createInterview, createFeedback } from "@/lib/actions/general.action";
+import type { AgentProps } from "@/types";
 
 enum CallStatus {
   INACTIVE = "INACTIVE",
