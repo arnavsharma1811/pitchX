@@ -97,3 +97,11 @@ export interface InterviewFormProps {
 export interface TechIconProps {
   techStack: string[];
 }
+interface CreateInterviewParams {
+  userId: string;
+  role: string;
+  level: string;
+  techstack: string;
+  type: string;
+  amount: number;
+}

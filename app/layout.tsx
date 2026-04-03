@@ -10,8 +10,11 @@ const monaSans = Mona_Sans({
 
 
 export const metadata: Metadata = {
-  title: "pitchX",
+  title: "PitchX",
   description: "AI-powered mock interview platform to practice, simulate, and refine interview performance with real-time feedback.",
+ icons: {
+    icon: "/logo.svg",
+  },
 };
 
 export default function RootLayout({
